@@ -6,7 +6,7 @@
 /*   By: obouftou <obouftou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 20:22:18 by obouftou          #+#    #+#             */
-/*   Updated: 2024/10/30 10:59:10 by obouftou         ###   ########.fr       */
+/*   Updated: 2024/11/13 17:39:21 by obouftou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,3 @@ int	ft_toupper(int c)
 		return (c - 32);
 	return (c);
 }
-/*int main ()
-{
-	int z;
-	z = '/';
-	char uppercase = ft_toupper(z);
-	printf("%c\n", uppercase);
-}*/

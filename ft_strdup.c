@@ -6,7 +6,7 @@
 /*   By: obouftou <obouftou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 19:21:05 by obouftou          #+#    #+#             */
-/*   Updated: 2024/11/05 22:15:32 by obouftou         ###   ########.fr       */
+/*   Updated: 2024/11/13 17:37:33 by obouftou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,3 @@ char	*ft_strdup(const char *s1)
 	tmp[i] = '\0';
 	return (tmp);
 }
-//  #include <stdio.h>
-// #include<string.h>
-// int main ()
-// {
-// //printf("%s\n", ft_strdup(s1));
-// 	printf("%s", ft_strdup(NULL));
-
-// }

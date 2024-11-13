@@ -6,7 +6,7 @@
 /*   By: obouftou <obouftou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 14:34:22 by obouftou          #+#    #+#             */
-/*   Updated: 2024/11/03 14:47:33 by obouftou         ###   ########.fr       */
+/*   Updated: 2024/11/13 11:13:30 by obouftou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,24 +31,3 @@ char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 	s1[i] = '\0';
 	return (s1);
 }
-/*char f(unsigned int i, char c)
-{
-	i = 0;
-	while (i % 2 == 0 && c >= 'a' && c <= 'z')
-	{
-		c -= 32;
-	}
-	return c;
-}
-int	main(void)
-{
-	char str[] = "babdty";
-	int i =  0;
-	char *result = ft_strmapi(str, f);
-	if (result)
-	{
-		printf("%s\n", result);
-		free(result);
-	}
-	return (0);
-}*/

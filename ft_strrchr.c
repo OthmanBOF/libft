@@ -6,7 +6,7 @@
 /*   By: obouftou <obouftou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 19:48:48 by obouftou          #+#    #+#             */
-/*   Updated: 2024/11/06 13:50:22 by obouftou         ###   ########.fr       */
+/*   Updated: 2024/11/13 17:38:42 by obouftou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,22 +33,3 @@ char	*ft_strrchr(const char *ch, int c)
 	}
 	return (lst_pre);
 }
-/*#include <stdio.h>
-#include <string.h>
-
-int main() {
-    char str[] = "hello world";
-    char ch = 'o';
-
-    // Find the last occurrence of 'o' in "hello world"
-    char *result = strrchr(str, ch);
-
-    if (result != NULL) {
-        printf("The last occurrence of '%c' is at position:
-		 %ld\n", ch, result - str);
-    } else {
-        printf("Character '%c' not found.\n", ch);
-    }
-
-    return 0;
-}*/
